@@ -1,0 +1,8 @@
+LEN_NAME = 255
+MIN_PRICE = 1
+MIN_COUNT_PRODUCT = 1
+DISPLAY_IMAGE_ADMIN = '<img src="{}" style="min-width:150px;max-width:150px;">'
+BIG_IMAGE = (600, 600)
+MEDIUM_IMAGE = (300, 300)
+LITTLE_IMAGE = (100, 100)
+FORMAT_IMAGE = 'PNG'
