@@ -2,7 +2,9 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-COPY src/ /app
+RUN mkdir src/
+
+COPY src/ /app/src/
 COPY Makefile /app
 COPY requirements.txt /app
 

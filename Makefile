@@ -16,16 +16,16 @@ start-containers-start: # Запуск контейнеров при старт�
 	@sleep 3;
 
 start-server: # Запуск сервера
-	$(command) manage.py runserver 0.0.0.0:8000
+	$(command) src/manage.py runserver 0.0.0.0:8000
 
 migrate: # Выполнить миграции Django
-	$(command) manage.py migrate
+	$(command) src/manage.py migrate
 
 createsuperuser: # Создать супер пользователя
-	$(command) manage.py createsuperuser --noinput
+	$(command) src/manage.py createsuperuser --noinput
 
 test-data: # Создаёт тестовые данные
-	$(command) manage.py test_data
+	$(command) src/manage.py test_data
 
 project-init: # Инициализировать проект
 	make clear-volumes start-containers-init

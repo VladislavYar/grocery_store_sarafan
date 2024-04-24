@@ -33,8 +33,9 @@ services:
         condition: service_healthy
     command: bash -c "make project-start-in-container"
     volumes:
-      - media:/media
-      - static:/static
+      - media:/app/media
+      - static:/app/static
+      - ../src/:/app/src/
     ports:
       - 8000:8000
 
