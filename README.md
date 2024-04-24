@@ -225,16 +225,6 @@
 </details>
 <hr>
 
-<h3 align="center">Стек</h3>
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.12.3-red?style=flat&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/Django-5.0.4-red?style=flat&logo=django&logoColor=white">
-  <img src="https://img.shields.io/badge/DjangoRestFramework-3.15.2-red?style=flat">
-  <img src="https://img.shields.io/badge/PostgreSQL-Latest-red?style=flat&logo=postgresql&logoColor=white">
-  <img src="https://img.shields.io/badge/Docker-Latest-red?style=flat&logo=docker&logoColor=white">
-</p>
-<hr>
-
 <h3 align="center">Как запустить</h3>
 <details>
   <p align="center"><summary align="center"><ins>Через Docker</ins></summary></p>
@@ -302,5 +292,15 @@
     </li>
   </ul>
 </details>
+<hr>
+
+<h3 align="center">Стек</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.12.3-red?style=flat&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Django-5.0.4-red?style=flat&logo=django&logoColor=white">
+  <img src="https://img.shields.io/badge/DjangoRestFramework-3.15.2-red?style=flat">
+  <img src="https://img.shields.io/badge/PostgreSQL-Latest-red?style=flat&logo=postgresql&logoColor=white">
+  <img src="https://img.shields.io/badge/Docker-Latest-red?style=flat&logo=docker&logoColor=white">
+</p>
 <hr>
 
